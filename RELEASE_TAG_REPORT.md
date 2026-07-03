@@ -1,13 +1,45 @@
 # INVERT Kernel — Release Tag Report (v1.0.0)
 
-**Date:** 2026-07-03  
+**Date:** 2026-07-03 (updated after Zenodo metadata fix)  
 **Repository:** https://github.com/cesar-andress/invert-kernel  
 **Release identity:** INVERT Kernel — Replication Package  
-**Tag:** `v1.0.0` (annotated)
+**Tag:** `v1.0.0` (annotated, **recreated** 2026-07-03)
 
 ---
 
-## Git identifiers
+## Git identifiers (current)
+
+| Item | Value |
+|------|-------|
+| **Commit hash** | `2b182fa0f57d1d2ea578faa376dc904e5695d1d2` |
+| **Annotated tag object** | `9985539bfe9802c1c766d35037fd1a63e52b9ace` |
+| **Tag message** | INVERT Kernel replication package v1.0.0 |
+| **Prior tag commit** | `8df2fd7` (superseded — invalid `.zenodo.json`) |
+
+### Zenodo metadata fix (`2b182fa`)
+
+**Root cause of `Extra metadata load failed`:** `.zenodo.json` had `related_identifiers[0].scheme: "url"` but the `identifier` was a paper title string, not an `http(s)` URL. Zenodo rejects that on GitHub release ingest.
+
+**Fix applied:**
+- Removed invalid `related_identifiers` block
+- Moved companion-paper citation to `references` (plain string)
+- Added `notes` with GitHub URL and concept DOI
+- Shortened creator `affiliation` to Zenodo-friendly form
+- Added `scripts/validate_zenodo_json.sh` (run before every tag)
+- Wired validator into `validate_release_manifest.sh`
+
+**Re-tag procedure executed:**
+```bash
+git tag -d v1.0.0
+git push origin :refs/tags/v1.0.0
+git tag -a v1.0.0 -m "INVERT Kernel replication package v1.0.0"
+git push origin main
+git push origin v1.0.0
+```
+
+---
+
+## Git identifiers (original release)
 
 | Item | Value |
 |------|-------|
