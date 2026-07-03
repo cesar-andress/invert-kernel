@@ -1,6 +1,6 @@
 # INVERT Kernel — Release Tag Report (v1.0.0)
 
-**Date:** 2026-07-03 (updated after Zenodo metadata fix)  
+**Date:** 2026-07-03 (updated after creator-affiliation alignment)  
 **Repository:** https://github.com/cesar-andress/invert-kernel  
 **Release identity:** INVERT Kernel — Replication Package  
 **Tag:** `v1.0.0` (annotated, **recreated** 2026-07-03)
@@ -11,10 +11,23 @@
 
 | Item | Value |
 |------|-------|
-| **Commit hash** | `2b182fa0f57d1d2ea578faa376dc904e5695d1d2` |
-| **Annotated tag object** | `9985539bfe9802c1c766d35037fd1a63e52b9ace` |
+| **Commit hash** | `92a34c914780a4e9af097d9215d0b6636884d14a` |
+| **Annotated tag object** | `07ee87f1e80ba0b47e6f5561712286bd381071b0` |
 | **Tag message** | INVERT Kernel replication package v1.0.0 |
-| **Prior tag commit** | `8df2fd7` (superseded — invalid `.zenodo.json`) |
+| **Prior tag commit** | `2b182fa` (superseded — shortened Zenodo affiliation) |
+
+### Creator affiliation alignment (`92a34c9`)
+
+**Change:** `.zenodo.json` creator `affiliation` restored to the full CRIA-BDHS form used in `CITATION.cff` and the manuscript; `CITATION.cff` gained `email: cesar.andress@ucjc.edu`; README documents the GitHub source URL.
+
+**Re-tag procedure executed:**
+```bash
+git tag -d v1.0.0
+git push origin :refs/tags/v1.0.0
+git tag -a v1.0.0 -m "INVERT Kernel replication package v1.0.0"
+git push origin main
+git push origin v1.0.0
+```
 
 ### Zenodo metadata fix (`2b182fa`)
 
@@ -24,7 +37,6 @@
 - Removed invalid `related_identifiers` block
 - Moved companion-paper citation to `references` (plain string)
 - Added `notes` with GitHub URL and concept DOI
-- Shortened creator `affiliation` to Zenodo-friendly form
 - Added `scripts/validate_zenodo_json.sh` (run before every tag)
 - Wired validator into `validate_release_manifest.sh`
 
