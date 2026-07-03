@@ -1,6 +1,6 @@
 {
   "title": "INVERT Kernel — Replication Package",
-  "description": "Replication package for the INVERT Kernel audit methodology (ACM TOSEM companion paper: INVERT Kernel: A Methodology for Contract-Bound Process Auditing of Outcome-Equivalent Code). Contains the frozen Core v2 implementation: preregistered Family 1 tasks, behavioral oracles, frozen rule-based detectors, archived Ollama-local generalization runs (Classes B–E), analysis scripts, checksum baseline, and confirmatory CSV/Markdown reports. Core v2 is the internal frozen protocol version in this deposit—not a separate product line. Default verification (scripts/verify_artifact_quick.sh and verify_artifact.sh) does not require LLM re-generation or API keys. Source repository: https://github.com/cesar-andress/invert-kernel",
+  "description": "Replication package for the INVERT Kernel audit methodology (ACM TOSEM companion paper: INVERT Kernel: A Methodology for Contract-Bound Process Auditing of Outcome-Equivalent Code). Frozen Core v2 implementation: preregistered Family 1 tasks, behavioral oracles, rule-based detectors, archived Ollama-local generalization runs (Classes B–E), analysis scripts, checksum baseline, and confirmatory CSV/Markdown reports. Core v2 is the internal frozen protocol version in this deposit, not a separate product line. Default verification (scripts/verify_artifact_quick.sh and verify_artifact.sh) does not require LLM re-generation or API keys.",
   "upload_type": "software",
   "publication_date": "2026-07-03",
   "version": "v1.0.0",
@@ -10,7 +10,7 @@
   "creators": [
     {
       "name": "Andrés, César",
-      "affiliation": "CRIA-BDHS Research Group, Higher Polytechnic School of Technology and Science, Universidad Camilo José Cela, Madrid, Spain",
+      "affiliation": "Universidad Camilo José Cela, Madrid, Spain",
       "orcid": "0009-0001-8968-3404"
     }
   ],
@@ -23,12 +23,8 @@
     "reproducibility",
     "software engineering"
   ],
-  "related_identifiers": [
-    {
-      "relation": "isSupplementTo",
-      "identifier": "INVERT Kernel: A Methodology for Contract-Bound Process Auditing of Outcome-Equivalent Code (ACM TOSEM, forthcoming)",
-      "resource_type": "publication-article",
-      "scheme": "url"
-    }
-  ]
+  "references": [
+    "Andrés, C. (2026). INVERT Kernel: A Methodology for Contract-Bound Process Auditing of Outcome-Equivalent Code. ACM Transactions on Software Engineering and Methodology (forthcoming)."
+  ],
+  "notes": "Source repository: https://github.com/cesar-andress/invert-kernel. Concept DOI: 10.5281/zenodo.21063175."
 }

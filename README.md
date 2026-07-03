@@ -219,6 +219,7 @@ Scope boundaries for confirmatory vs exploratory material: this README (§What v
 `MANIFEST_ZENODO.txt` lists intended inclusions and exclusions for the Zenodo archive. **Do not upload** `.git/`, `.venv/`, `.pytest_cache/`, `__pycache__/`, or `*.egg-info/`. Validate static paths before upload:
 
 ```bash
+bash scripts/validate_zenodo_json.sh
 bash scripts/validate_release_manifest.sh
 ```
 

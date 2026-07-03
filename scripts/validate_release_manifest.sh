@@ -7,6 +7,9 @@ cd "${INVERT_REPO_ROOT}"
 manifest="MANIFEST_ZENODO.txt"
 fail=0
 
+echo "==> Validating .zenodo.json for Zenodo GitHub release"
+bash scripts/validate_zenodo_json.sh
+
 echo "==> Checking MANIFEST inclusions in ${manifest}"
 while IFS= read -r line; do
   [[ "${line}" =~ ^\+[[:space:]] ]] || continue

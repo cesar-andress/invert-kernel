@@ -30,6 +30,7 @@
 + scripts/regenerate_confirmatory_tables.sh
 + scripts/checksum_key_outputs.sh
 + scripts/export_paper_figures.py
++ scripts/validate_zenodo_json.sh
 + scripts/validate_release_manifest.sh
 + results/core_v2/figures/
 + CITATION.cff

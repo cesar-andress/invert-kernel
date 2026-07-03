@@ -128,6 +128,7 @@ Default v1.0.0 artifact evaluation uses **checksum-verified archived CSVs**, not
 | `pytest` import errors | Wrong working directory | `cd` to package root (where `pyproject.toml` lives) |
 | `git_commit` is `unknown` in newly written metadata | Zenodo bundle has no `.git` (expected) | Does not affect default verification; archived `frozen_detector_metadata.json` in run dirs retain freeze-time commits |
 | Detector hash `MISMATCH` on shared modules | Local edits to `src/invert_core/detectors/` | Do not edit detector sources when verifying; use pristine bundle |
+| Zenodo `Extra metadata load failed` | Invalid `.zenodo.json` (e.g.\ `scheme: url` without a URL) | Run `bash scripts/validate_zenodo_json.sh` before tagging a GitHub release |
 
 ---
 
