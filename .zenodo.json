@@ -1,23 +1,34 @@
 {
-  "title": "INVERT Core v2 Replication Package",
-  "description": "INVERT v1.0.1 artifact package for recovering deterministic process signatures from behaviorally equivalent LLM-generated code. Metadata correction release: confirmatory science artifacts unchanged from v1.0.0. Includes preregistered Family 1 tasks, behavioral oracles, frozen rule-based detectors, archived Ollama-local generalization runs (Classes B-E), analysis scripts, and confirmatory CSV/MD reports. Verification does not require LLM re-generation or API keys.",
+  "title": "INVERT Kernel — Replication Package",
+  "description": "Replication package for the INVERT Kernel audit methodology (ACM TOSEM companion paper: INVERT Kernel: A Methodology for Contract-Bound Process Auditing of Outcome-Equivalent Code). Contains the frozen Core v2 implementation: preregistered Family 1 tasks, behavioral oracles, frozen rule-based detectors, archived Ollama-local generalization runs (Classes B–E), analysis scripts, checksum baseline, and confirmatory CSV/Markdown reports. Core v2 is the internal frozen protocol version in this deposit—not a separate product line. Default verification (scripts/verify_artifact_quick.sh and verify_artifact.sh) does not require LLM re-generation or API keys. Source repository: https://github.com/cesar-andress/invert-kernel",
   "upload_type": "software",
-  "version": "v1.0.1",
+  "publication_date": "2026-07-03",
+  "version": "v1.0.0",
   "language": "eng",
+  "license": "mit",
+  "access_right": "open",
   "creators": [
     {
       "name": "Andrés, César",
-      "affiliation": "CRIA-BDHS Research Group, Higher Polytechnic School of Technology and Science, Universidad Camilo José Cela, Madrid, Spain"
+      "affiliation": "CRIA-BDHS Research Group, Higher Polytechnic School of Technology and Science, Universidad Camilo José Cela, Madrid, Spain",
+      "orcid": "0009-0001-8968-3404"
     }
   ],
   "keywords": [
-    "LLM code generation",
+    "INVERT Kernel",
+    "audit methodology",
     "process signatures",
-    "dynamic analysis",
-    "software engineering benchmark",
+    "behavioral equivalence",
+    "generated code",
     "reproducibility",
-    "INVERT"
+    "software engineering"
   ],
-  "license": "mit",
-  "access_right": "open"
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "INVERT Kernel: A Methodology for Contract-Bound Process Auditing of Outcome-Equivalent Code (ACM TOSEM, forthcoming)",
+      "resource_type": "publication-article",
+      "scheme": "url"
+    }
+  ]
 }

@@ -1,6 +1,9 @@
-# Artifact Inventory — INVERT Core v2 (v1.0.1)
+# Artifact Inventory — INVERT Kernel Replication Package
 
-Repository root: extract or clone this package; all paths below are relative to that root.
+**Frozen implementation:** Core v2 (v1.0.0)  
+**Instantiation:** Family 1 (Classes A–E; confirmatory frozen runs B–E)
+
+Repository root: extract or clone this package; all paths below are relative to that root. Directory names such as `core_v2/` and `invert_core/` are part of the frozen Core v2 implementation and are not renamed.
 
 ---
 
@@ -192,9 +195,11 @@ All four frozen generalization runs contain this file. Documented SHA256 hashes 
 
 ---
 
-## External validation (out of scope for Paper 1)
+## External validation (out of scope for the companion TOSEM manuscript)
 
 External validation feasibility probes (EffiBench, Class E smoke tests, external-variability pilots) are **not** bundled in this INVERT Kernel replication package. The paper states trace-contract dependence as a declared limitation without external-validity claims. Confirmatory evidence remains the four `core_v2_generalization_local_*_001` runs only.
+
+**Exploratory boundary documentation:** `docs/EXTERNAL_FEASIBILITY_NOTE.md` (referenced by the paper as *the external feasibility note*; non-confirmatory).
 
 ---
 

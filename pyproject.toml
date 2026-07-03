@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "invert"
-version = "1.0.1"
-description = "INVERT Core v2 — artifact package for recovering deterministic process signatures from behaviorally equivalent LLM-generated code"
+version = "1.0.0"
+description = "INVERT Kernel replication package (frozen Core v2 implementation) for contract-bound process auditing of generated code"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

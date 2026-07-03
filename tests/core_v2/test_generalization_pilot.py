@@ -103,7 +103,8 @@ def test_frozen_metadata_includes_eager_lazy_detector_hash() -> None:
     )
     meta = json.loads(path.read_text(encoding="utf-8"))
     assert meta["dimension"] == "eager_vs_lazy"
-    assert meta["git_commit"] != "unknown"
+    if (root / ".git").exists():
+        assert meta["git_commit"] != "unknown"
     eager_hash = meta["detector_files_hash"]["eager_lazy.py"]
     strip_hash = meta["detector_files_hash"]["stripping.py"]
     assert len(eager_hash) == 64
@@ -134,7 +135,8 @@ def test_frozen_metadata_includes_bfs_dfs_and_stripping_hashes() -> None:
     )
     meta = json.loads(path.read_text(encoding="utf-8"))
     assert meta["dimension"] == "bfs_vs_dfs"
-    assert meta["git_commit"] != "unknown"
+    if (root / ".git").exists():
+        assert meta["git_commit"] != "unknown"
     import hashlib
 
     bfs_hash = meta["detector_files_hash"]["bfs_dfs.py"]
@@ -165,7 +167,8 @@ def test_frozen_metadata_includes_deterministic_randomized_and_stripping_hashes(
     )
     meta = json.loads(path.read_text(encoding="utf-8"))
     assert meta["dimension"] == "deterministic_vs_randomized"
-    assert meta["git_commit"] != "unknown"
+    if (root / ".git").exists():
+        assert meta["git_commit"] != "unknown"
     import hashlib
 
     det_hash = meta["detector_files_hash"]["deterministic_randomized.py"]

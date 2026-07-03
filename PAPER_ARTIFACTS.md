@@ -1,6 +1,8 @@
 # Paper Artifacts — Tables and Figures
 
-Maps ACM TOSEM manuscript outputs (`~/papers/invert/paper/`) to files in this replication package.
+**Superseded detail:** see **`PAPER_TO_ARTIFACT_MAP.md`** (claim-level mapping with verification commands).
+
+Maps ACM TOSEM manuscript outputs to files in this replication package.
 
 **Policy:** Confirmatory claims use four frozen generalization runs only. Regeneration commands do **not** call LLMs when archived `data/core_v2/code/` is present.
 
@@ -29,7 +31,7 @@ All numeric tables in the paper trace to CSV/Markdown exports below. LaTeX copie
 | `tab:class-c-recovery`, `tab:pole-asymmetry-main` | `.../eager_lazy_report.md`, `.../eager_lazy_pole_asymmetry.{md,csv}` | `analyze-run` + pole audit (§REPRODUCIBILITY) |
 | `tab:class-d-recovery` | `.../bfs_dfs_report.md`, `bfs_dfs_valid_only_summary.csv` | `analyze-run` |
 | `tab:class-e-recovery` | `.../deterministic_randomized_report.md` | `analyze-run` |
-| `tab:trinity-summary` | Derived from per-run valid-only summaries + `core_v2_dimension_summary.csv` | `regenerate_confirmatory_tables.sh` |
+| `tab:app:frozen-evidence` | `core_v2_decision_report.md` §Frozen generalization evidence | `summarize-core-v2` |
 | `tab:failures` | Documented in run reports + `core_v2_decision_report.md` | manual audit of run dirs |
 | `tab:app:frozen-evidence` | `core_v2_decision_report.md` §Frozen generalization evidence | `summarize-core-v2` |
 | `tab:app:artifact-index` | This repository tree | static index |
@@ -52,7 +54,7 @@ invert-core summarize-core-v2   # included in script above
 | `fig:strip-curves` | Placeholder in LaTeX; supplementary export available | `python scripts/export_paper_figures.py` → `results/core_v2/figures/strip_level_recovery_curves.png` |
 | `fig:app:strip-heatmap`, `fig:app:negative-controls`, `fig:app:failures` | LaTeX placeholders | Partial: strip curves only; heatmap/panel exports TODO |
 
-The legacy `invert plot` command (`src/invert/plot.py`) targets **prototype** results under `results/runs/`, not Core v2 paper claims.
+The legacy `invert plot` command (`src/invert/plot.py`) targets **prototype** results under `results/runs/`, not Family 1 confirmatory claims in the frozen Core v2 tree.
 
 ---
 

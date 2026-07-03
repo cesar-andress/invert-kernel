@@ -1,6 +1,6 @@
-# INVERT Core v2 results (v1.0.1)
+# INVERT Kernel — frozen Core v2 results (v1.0.0)
 
-Outputs from `invert-core` commands land here. Confirmatory paper claims use the four **frozen generalization** run directories listed in `README.md`.
+Outputs from `invert-core` commands land under this directory (`results/core_v2/`). **Core v2** is the internal frozen implementation version; confirmatory paper claims use the four **Family 1** frozen generalization run directories listed in the repository `README.md`.
 
 ## Cross-run summaries
 
@@ -16,7 +16,7 @@ Outputs from `invert-core` commands land here. Confirmatory paper claims use the
 
 ## Figures
 
-`figures/strip_level_recovery_curves.png` — exported by `python scripts/export_paper_figures.py` (see `PAPER_ARTIFACTS.md`).
+`figures/strip_level_recovery_curves.png` — exported by `python scripts/export_paper_figures.py` (see `PAPER_TO_ARTIFACT_MAP.md`).
 
 ## Verification
 

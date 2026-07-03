@@ -1,12 +1,14 @@
-# MANIFEST_ZENODO.txt — intended Zenodo package contents (INVERT v1.0.1)
+# MANIFEST_ZENODO.txt — intended Zenodo package contents (INVERT Kernel v1.0.0)
 # Generated: 2026-06-30
 #
 # Lines prefixed with "+" are intended INCLUSIONS.
 # Lines prefixed with "-" are intended EXCLUSIONS.
 
 # --- Release metadata ---
-+ VERSION: v1.0.1
-+ PURPOSE: artifact package for recovering deterministic process signatures from behaviorally equivalent LLM-generated code
++ VERSION: v1.0.0
++ PUBLIC_TITLE: INVERT Kernel — Replication Package
++ FROZEN_IMPLEMENTATION: Core v2 (internal protocol version; directories core_v2/, invert_core/)
++ PURPOSE: replication package for the INVERT Kernel companion TOSEM manuscript (Family 1 instantiation)
 
 # --- Core source and configuration ---
 + pyproject.toml
@@ -15,20 +17,24 @@
 + README.md
 + REPRODUCIBILITY.md
 + ARTIFACTS.md
-+ ZENODO_AUDIT.md
 + MANIFEST_ZENODO.txt
 + PAPER_ARTIFACTS.md
++ PAPER_TO_ARTIFACT_MAP.md
++ ARTIFACT_QUICKSTART.md
++ docs/EXTERNAL_FEASIBILITY_NOTE.md
 + KEY_OUTPUTS.sha256
 + scripts/lib/repo_root.sh
 + scripts/verify_artifact.sh
++ scripts/verify_artifact_quick.sh
++ scripts/verify_detector_hashes.sh
 + scripts/regenerate_confirmatory_tables.sh
 + scripts/checksum_key_outputs.sh
 + scripts/export_paper_figures.py
++ scripts/validate_release_manifest.sh
 + results/core_v2/figures/
 + CITATION.cff
 + .zenodo.json
 + .env.example
-+ ARTIFACT.md
 + .gitignore
 
 + src/invert/
@@ -38,7 +44,7 @@
 + scripts/
 + prereg/
 
-# --- Core v2 experimental artifacts (required for paper claims) ---
+# --- Frozen Core v2 experimental artifacts (Family 1; required for paper claims) ---
 + data/core_v2/tasks/
 + data/core_v2/raw/core_v2_generalization_local_quadrature_001/
 + data/core_v2/raw/core_v2_generalization_local_eager_lazy_001/
@@ -75,7 +81,7 @@
 # --- External validation / research extension: EXCLUDED from INVERT Kernel bundle ---
 # - EXTERNAL_*.md, external_*_go_no_go.json, invert_discovery/, research_extension/
 
-# --- NOT in v1.0.1 Zenodo bundle (experimental / incomplete) ---
+# --- NOT in v1.0.0 Zenodo bundle (experimental / incomplete) ---
 # - configs/core_v2_robustness_large_n_*.yaml
 # - data/core_v2/**/core_v2_robustness_large_n_*
 # - results/core_v2/runs/core_v2_robustness_large_n_*

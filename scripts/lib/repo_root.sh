@@ -6,3 +6,6 @@ if [[ -z "${INVERT_REPO_ROOT:-}" ]]; then
   export INVERT_REPO_ROOT
 fi
 cd "${INVERT_REPO_ROOT}"
+if [[ -x "${INVERT_REPO_ROOT}/.venv/bin/python3" ]]; then
+  export PATH="${INVERT_REPO_ROOT}/.venv/bin:${PATH}"
+fi

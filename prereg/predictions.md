@@ -1,4 +1,4 @@
-# INVERT Core v2 — Preregistered Predictions
+# INVERT Kernel — Core v2 preregistered predictions (Family 1)
 
 ## Primary claim
 

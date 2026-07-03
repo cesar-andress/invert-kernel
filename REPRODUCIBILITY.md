@@ -1,6 +1,7 @@
-# Reproducibility Guide — INVERT Core v2 (v1.0.1)
+# Reproducibility Guide — INVERT Kernel Replication Package
 
-This document lists exact commands to verify the replication package accompanying the ACM TOSEM manuscript *INVERT: Recovering Quantity, Order, and Variability Signatures from Behaviorally Equivalent Generated Code*.
+**Frozen implementation:** Core v2 (v1.0.0)  
+**Paper:** *INVERT Kernel: A Methodology for Contract-Bound Process Auditing of Outcome-Equivalent Code*
 
 **Assumptions:** Python ≥ 3.10, editable install (`pip install -e ".[dev]"`), working directory set to the repository root (where `pyproject.toml` lives).
 
@@ -10,22 +11,26 @@ This document lists exact commands to verify the replication package accompanyin
 
 ## 0. One-command artifact verification (recommended)
 
+**Quick path (artifact evaluators, ~10–15 min including install):** see `ARTIFACT_QUICKSTART.md`.
+
 ```bash
-bash scripts/verify_artifact.sh
+bash scripts/verify_artifact_quick.sh   # smoke + hashes + checksums + summarize
+bash scripts/verify_artifact.sh         # full: adds pytest + pole audit + figures
 ```
 
 Runs smoke test, pytest, aggregation, checksum verification against `KEY_OUTPUTS.sha256`, and paper figure export. **Does not call LLM APIs or Ollama.** See `PAPER_ARTIFACTS.md` for manuscript mapping.
 
-Optional: `INVERT_VERIFY_REPLAY=1 bash scripts/verify_artifact.sh` re-runs `analyze-run` on frozen code (may refresh CSVs if detector sources differ from freeze-time commits; not the default v1.0.1 check).
+Optional: `INVERT_VERIFY_REPLAY=1 bash scripts/verify_artifact.sh` re-runs `analyze-run` on frozen code (may refresh CSVs if detector sources differ from freeze-time commits; not the default v1.0.0 check).
 
 ---
 
 ## 1. Environment setup
 
 ```bash
-cd /path/to/invert
+cd /path/to/invert-kernel    # package root (directory containing pyproject.toml)
 python3 -m venv .venv
 source .venv/bin/activate
+pip install --upgrade pip
 pip install -e ".[dev]"
 ```
 
@@ -171,7 +176,7 @@ pytest tests/core_v2/test_audit_eager_lazy_pole_asymmetry.py -v
 
 ## 7. Full regeneration (optional — requires Ollama)
 
-**Warning:** These scripts call local Ollama models and may take substantial time. Archived outputs are included in the v1.0.1 package; full regeneration is optional.
+**Warning:** These scripts call local Ollama models and may take substantial time. Archived outputs are included in the v1.0.0 package; full regeneration is optional.
 
 ```bash
 bash scripts/run_core_v2_generalization_local_quadrature_001.sh
@@ -198,7 +203,7 @@ ls results/core_v2/runs/core_v2_generalization_local_*/frozen_detector_metadata.
 
 ## 9. Reproduction status table
 
-Status reflects verification on **2026-06-29** against the archived v1.0.1 package. “Verified” means the command completed successfully and expected output files were present or regenerated consistently.
+Status reflects verification on **2026-07-03** against the archived v1.0.0 package. “Verified” means the command completed successfully and expected output files were present or regenerated consistently.
 
 | Claim | Run ID | Command | Expected output file(s) | Status |
 |-------|--------|---------|-------------------------|--------|
@@ -219,7 +224,7 @@ Status reflects verification on **2026-06-29** against the archived v1.0.1 packa
 
 Each frozen generalization run directory contains `frozen_detector_metadata.json` with `git_commit`, `detector_files_hash`, and UTC `timestamp`. See `ARTIFACTS.md` for the hash inventory. **Do not edit detector source when verifying archived hashes.**
 
-Documented detector file hashes (SHA256, unchanged in v1.0.1):
+Documented detector file hashes (SHA256, unchanged in v1.0.0):
 
 | File | Hash |
 |------|------|
@@ -235,10 +240,10 @@ Documented detector file hashes (SHA256, unchanged in v1.0.1):
 ## 11. Known limitations
 
 - Confirmatory claims bind to **four frozen Ollama-local generalization runs** on engineered synthetic tasks; commercial APIs and human-written code are out of scope.
-- Default verification uses **checksum comparison** (`KEY_OUTPUTS.sha256`); analyze-run replay may diverge if detector sources changed after freeze (see `ZENODO_AUDIT.md` §10).
+- Default verification uses **checksum comparison** (`KEY_OUTPUTS.sha256`); analyze-run replay may diverge if detector sources changed after freeze (see `ARTIFACTS.md` §Frozen detector metadata).
 - Class A (`euler_vs_rk4`) has pilots only; not part of confirmatory aggregates.
-- Larger-N robustness runs (`core_v2_robustness_large_n_*`) are **not** part of v1.0.1 confirmatory evidence if present locally; exclude from Zenodo.
-- Zenodo DOI: **10.5281/zenodo.21063175** (v1.0.1; see `CITATION.cff`).
+- Larger-N robustness runs (`core_v2_robustness_large_n_*`) are **not** part of v1.0.0 confirmatory evidence if present locally; exclude from Zenodo.
+- Zenodo DOI: **10.5281/zenodo.21063175** (v1.0.0; see `CITATION.cff`).
 
 ---
 

@@ -1,4 +1,4 @@
-# INVERT Core v2 — Stripping Normalizations
+# INVERT Kernel — Core v2 stripping normalizations (Family 1)
 
 Deterministic transforms applied cumulatively by level.
 

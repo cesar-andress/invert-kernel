@@ -4,11 +4,17 @@
 set -euo pipefail
 source "$(dirname "${BASH_SOURCE[0]}")/lib/repo_root.sh"
 
+python3 -c 'import sys; sys.exit(0 if sys.version_info >= (3, 10) else 1)' \
+  || { echo "error: Python >= 3.10 required (see README.md)" >&2; exit 1; }
+
 echo "==> Python $(python3 --version)"
 echo "==> Repository root: ${INVERT_REPO_ROOT}"
 
 echo "==> invert-core smoke-test"
 invert-core smoke-test
+
+echo "==> frozen detector metadata hash check"
+bash scripts/verify_detector_hashes.sh
 
 echo "==> pytest"
 pytest -q
