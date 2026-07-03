@@ -228,4 +228,5 @@ bash scripts/validate_release_manifest.sh
 ## Citation & license
 
 **Artifact:** INVERT Kernel — Replication Package v1.0.0 (frozen Core v2 implementation) — DOI [10.5281/zenodo.21063175](https://doi.org/10.5281/zenodo.21063175).  
+**Source:** [https://github.com/cesar-andress/invert-kernel](https://github.com/cesar-andress/invert-kernel) (release tag `v1.0.0`).  
 **License:** MIT (`LICENSE`). See `CITATION.cff`.
