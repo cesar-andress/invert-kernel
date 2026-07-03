@@ -1,0 +1,48 @@
+# Secrets and local environment
+.env
+.env.local
+*.pem
+*.key
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Temporary files
+*.tmp
+*.log
+
+# TOSEM manuscript lives in sibling directory ../paper/ (separate tree in invert-kernel monorepo layout)
+
+# Third-party feasibility clones (not part of confirmatory bundle)
+external_study/
+
+# Incomplete robustness large-N (not v1.0.0 confirmatory; exclude from git and Zenodo)
+configs/core_v2_robustness_large_n_*.yaml
+**/core_v2_robustness_large_n_*/
+results/core_v2/robustness_large_n_*
+scripts/run_robustness_large_n_dynamic.sh
+scripts/summarize_robustness_large_n.py

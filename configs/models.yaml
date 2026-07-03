@@ -1,0 +1,18 @@
+providers:
+  openai:
+    model: gpt-4o-mini
+    temperature: 0.2
+  anthropic:
+    model: claude-3-5-sonnet-20241022
+    temperature: 0.2
+  google:
+    model: gemini-1.5-flash
+    temperature: 0.2
+  local_stub:
+    model: stub
+    temperature: 0.0
+  ollama:
+    base_url: http://localhost:11434
+    temperature: 0
+    generate_timeout_seconds: 900
+    max_retries: 2

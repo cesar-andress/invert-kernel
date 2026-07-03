@@ -1,0 +1,124 @@
+# MANIFEST_ZENODO.txt — intended Zenodo package contents (INVERT v1.0.1)
+# Generated: 2026-06-30
+#
+# Lines prefixed with "+" are intended INCLUSIONS.
+# Lines prefixed with "-" are intended EXCLUSIONS.
+
+# --- Release metadata ---
++ VERSION: v1.0.1
++ PURPOSE: artifact package for recovering deterministic process signatures from behaviorally equivalent LLM-generated code
+
+# --- Core source and configuration ---
++ pyproject.toml
++ requirements.txt
++ LICENSE
++ README.md
++ REPRODUCIBILITY.md
++ ARTIFACTS.md
++ ZENODO_AUDIT.md
++ MANIFEST_ZENODO.txt
++ PAPER_ARTIFACTS.md
++ KEY_OUTPUTS.sha256
++ scripts/lib/repo_root.sh
++ scripts/verify_artifact.sh
++ scripts/regenerate_confirmatory_tables.sh
++ scripts/checksum_key_outputs.sh
++ scripts/export_paper_figures.py
++ results/core_v2/figures/
++ CITATION.cff
++ .zenodo.json
++ .env.example
++ ARTIFACT.md
++ .gitignore
+
++ src/invert/
++ src/invert_core/
++ tests/
++ configs/
++ scripts/
++ prereg/
+
+# --- Core v2 experimental artifacts (required for paper claims) ---
++ data/core_v2/tasks/
++ data/core_v2/raw/core_v2_generalization_local_quadrature_001/
++ data/core_v2/raw/core_v2_generalization_local_eager_lazy_001/
++ data/core_v2/raw/core_v2_generalization_local_bfs_dfs_001/
++ data/core_v2/raw/core_v2_generalization_local_deterministic_randomized_001/
++ data/core_v2/code/core_v2_generalization_local_quadrature_001/
++ data/core_v2/code/core_v2_generalization_local_eager_lazy_001/
++ data/core_v2/code/core_v2_generalization_local_bfs_dfs_001/
++ data/core_v2/code/core_v2_generalization_local_deterministic_randomized_001/
++ data/core_v2/stripped/core_v2_generalization_local_quadrature_001/
++ data/core_v2/stripped/core_v2_generalization_local_eager_lazy_001/
++ data/core_v2/stripped/core_v2_generalization_local_bfs_dfs_001/
++ data/core_v2/stripped/core_v2_generalization_local_deterministic_randomized_001/
+
+# --- Development pilots (transparency; not confirmatory) ---
++ data/core_v2/raw/core_v2_*_pilot_*
++ data/core_v2/code/core_v2_*_pilot_*
++ data/core_v2/stripped/core_v2_*_pilot_*
+
+# --- Results and reports (confirmatory frozen runs) ---
++ results/core_v2/core_v2_decision_report.md
++ results/core_v2/core_v2_dimension_summary.csv
++ results/core_v2/core_v2_model_dimension_summary.csv
++ results/core_v2/README.md
++ results/core_v2/runs/core_v2_generalization_local_quadrature_001/
++ results/core_v2/runs/core_v2_generalization_local_eager_lazy_001/
++ results/core_v2/runs/core_v2_generalization_local_bfs_dfs_001/
++ results/core_v2/runs/core_v2_generalization_local_deterministic_randomized_001/
++ results/core_v2/runs/core_v2_*_pilot_*/
+
+# --- Legacy invert package (required dependency of invert_core) ---
++ src/invert/
+
+# --- External validation / research extension: EXCLUDED from INVERT Kernel bundle ---
+# - EXTERNAL_*.md, external_*_go_no_go.json, invert_discovery/, research_extension/
+
+# --- NOT in v1.0.1 Zenodo bundle (experimental / incomplete) ---
+# - configs/core_v2_robustness_large_n_*.yaml
+# - data/core_v2/**/core_v2_robustness_large_n_*
+# - results/core_v2/runs/core_v2_robustness_large_n_*
+# - results/core_v2/robustness_large_n_*
+# - external_study/   (third-party benchmark clones; not confirmatory)
+# - scripts/run_robustness_large_n_dynamic.sh
+# - scripts/summarize_robustness_large_n.py
+
+# --- Optional legacy cloud artifacts (omit unless desired) ---
+# + data/raw/openai/
+# + data/raw/anthropic/
+# + data/code/openai/
+# + data/code/anthropic/
+
+# --- EXCLUSIONS (do not upload) ---
+- .git/
+- .venv/
+- venv/
+- env/
+- __pycache__/
+- .pytest_cache/
+- .mypy_cache/
+- .ruff_cache/
+- *.pyc
+- *.pyo
+- *.egg-info/
+- dist/
+- build/
+- htmlcov/
+- .coverage
+- .env
+- .env.local
+- *.pem
+- *.key
+- .DS_Store
+- .idea/
+- .vscode/
+- *.swp
+- *~
+- *.tmp
+- *.log
+- paper/
+
+# --- External (separate record or journal supplement) ---
+# Manuscript LaTeX (ACM TOSEM companion paper)
+# Ollama model weights: managed by Ollama, not in this repository

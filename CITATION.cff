@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "INVERT Core v2 Replication Package"
+message: "If you use this software, please cite it using these metadata."
+type: software
+license: MIT
+version: 1.0.1
+doi: 10.5281/zenodo.21063175
+date-released: 2026-06-30
+authors:
+  - given-names: César
+    family-names: Andrés
+    affiliation: "CRIA-BDHS Research Group, Higher Polytechnic School of Technology and Science, Universidad Camilo José Cela, Madrid, Spain"
+    orcid: "https://orcid.org/0009-0001-8968-3404"
+keywords:
+  - LLM code generation
+  - process signatures
+  - dynamic analysis
+  - software engineering benchmark
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "INVERT: Recovering Quantity, Order, and Variability Signatures from Behaviorally Equivalent Generated Code"
+  authors:
+    - given-names: César
+      family-names: Andrés
+  journal: "ACM Transactions on Software Engineering and Methodology"
+  year: 2026
+  notes: "Companion software release v1.0.1. Manuscript LaTeX is external to this repository. Zenodo DOI: 10.5281/zenodo.21063175."
