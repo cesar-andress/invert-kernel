@@ -243,10 +243,11 @@ Documented detector file hashes (SHA256, unchanged in v1.0.0):
 - Default verification uses **checksum comparison** (`KEY_OUTPUTS.sha256`); analyze-run replay may diverge if detector sources changed after freeze (see `ARTIFACTS.md` §Frozen detector metadata).
 - Class A (`euler_vs_rk4`) has pilots only; not part of confirmatory aggregates.
 - Larger-N robustness runs (`core_v2_robustness_large_n_*`) are **not** part of v1.0.0 confirmatory evidence if present locally; exclude from Zenodo.
-- Zenodo DOI: **10.5281/zenodo.21063175** (v1.0.0; see `CITATION.cff`).
+- Zenodo DOI: **10.5281/zenodo.21154896** (v1.0.0; see `CITATION.cff`).
+- GitHub release: **https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0**
 
 ---
 
 ## 12. Manuscript linkage
 
-LaTeX source of truth is maintained outside this repository (companion TOSEM manuscript). Data Availability references this package (Zenodo DOI: 10.5281/zenodo.21063175).
+LaTeX source of truth is maintained outside this repository (companion TOSEM manuscript). Data Availability references this package (Zenodo DOI: 10.5281/zenodo.21154896; GitHub release: https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0).

@@ -1,6 +1,9 @@
 # External Feasibility Note (Exploratory — Non-Confirmatory)
 
-**Package:** INVERT Kernel — Replication Package v1.0.0  
+**Release:** INVERT Kernel — Replication Artifact v1.0.0  
+**Package:** INVERT Kernel — Replication Package  
+**Zenodo:** [10.5281/zenodo.21154896](https://doi.org/10.5281/zenodo.21154896)  
+**GitHub release:** [v1.0.0](https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0)  
 **Status:** Scope documentation only — **not** confirmatory evidence  
 **Paper reference:** limitations §External corpora; threats §Trace-contract dependence (`externalclosure` macro)
 

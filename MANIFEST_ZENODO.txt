@@ -1,12 +1,15 @@
 # MANIFEST_ZENODO.txt — intended Zenodo package contents (INVERT Kernel v1.0.0)
-# Generated: 2026-06-30
+# Generated: 2026-07-03
 #
 # Lines prefixed with "+" are intended INCLUSIONS.
 # Lines prefixed with "-" are intended EXCLUSIONS.
 
 # --- Release metadata ---
 + VERSION: v1.0.0
++ RELEASE_NAME: INVERT Kernel — Replication Artifact v1.0.0
 + PUBLIC_TITLE: INVERT Kernel — Replication Package
++ ZENODO_DOI: 10.5281/zenodo.21154896
++ GITHUB_RELEASE: https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0
 + FROZEN_IMPLEMENTATION: Core v2 (internal protocol version; directories core_v2/, invert_core/)
 + PURPOSE: replication package for the INVERT Kernel companion TOSEM manuscript (Family 1 instantiation)
 

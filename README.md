@@ -2,8 +2,10 @@
 
 ## Replication Package
 
-**Release:** v1.0.0 (frozen **Core v2** implementation)  
-**Zenodo DOI:** [10.5281/zenodo.21063175](https://doi.org/10.5281/zenodo.21063175)
+**Release:** [INVERT Kernel — Replication Artifact v1.0.0](https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0)  
+**Package:** INVERT Kernel — Replication Package  
+**Zenodo DOI:** [10.5281/zenodo.21154896](https://doi.org/10.5281/zenodo.21154896)  
+**Frozen implementation:** Core v2 (internal artifact version)
 
 **Paper:** *INVERT Kernel: A Methodology for Contract-Bound Process Auditing of Outcome-Equivalent Code* (ACM TOSEM; LaTeX maintained separately from this repository).
 
@@ -227,6 +229,7 @@ bash scripts/validate_release_manifest.sh
 
 ## Citation & license
 
-**Artifact:** INVERT Kernel — Replication Package v1.0.0 (frozen Core v2 implementation) — DOI [10.5281/zenodo.21063175](https://doi.org/10.5281/zenodo.21063175).  
-**Source:** [https://github.com/cesar-andress/invert-kernel](https://github.com/cesar-andress/invert-kernel) (release tag `v1.0.0`).  
+**Release:** INVERT Kernel — Replication Artifact v1.0.0 — [GitHub](https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0) · Zenodo [10.5281/zenodo.21154896](https://doi.org/10.5281/zenodo.21154896).  
+**Package:** INVERT Kernel — Replication Package (frozen Core v2 implementation).  
+**Source:** [https://github.com/cesar-andress/invert-kernel](https://github.com/cesar-andress/invert-kernel) (tag [`v1.0.0`](https://github.com/cesar-andress/invert-kernel/tree/v1.0.0)).  
 **License:** MIT (`LICENSE`). See `CITATION.cff`.

@@ -160,10 +160,12 @@ Remote tag confirmed: `refs/tags/v1.0.0` → `1c8ad8f2d9d890231b35f2674751ee69b7
 
 ## Metadata consistency (v1.0.0)
 
-- **Public brand:** INVERT Kernel — Replication Package
+- **Public release name:** INVERT Kernel — Replication Artifact v1.0.0
+- **Repository/package display:** INVERT Kernel — Replication Package
 - **Frozen implementation label:** Core v2 (internal protocol version only)
 - **GitHub URL:** https://github.com/cesar-andress/invert-kernel
-- **Zenodo DOI (record):** 10.5281/zenodo.21063175 (see `CITATION.cff`, `README.md`)
+- **GitHub release:** https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0
+- **Zenodo DOI (record):** 10.5281/zenodo.21154896 (see `CITATION.cff`, `README.md`)
 - **Version alignment:** v1.0.0 in README, CITATION.cff, `.zenodo.json`, MANIFEST, quickstart, reproducibility docs
 - **Contamination scan:** No LPR/TACO/DeepMind/CodeContests/H01/H02/AUC/AUPRC references in release metadata; “Paper 1” replaced with “companion TOSEM manuscript” where applicable
 
@@ -171,12 +173,10 @@ Remote tag confirmed: `refs/tags/v1.0.0` → `1c8ad8f2d9d890231b35f2674751ee69b7
 
 ## Remaining manual Zenodo steps
 
-1. **Log in** to [Zenodo](https://zenodo.org) and open record **10.5281/zenodo.21063175** (or create a new software deposit if this DOI is not yet bound to this repository).
-2. **Create new version** (or first publish) from GitHub tag **`v1.0.0`** or upload a zip built from the tagged tree (exclude `.git`, `.venv`, `.pytest_cache`, `egg-info` per `MANIFEST_ZENODO.txt`).
-3. **Import metadata** from `.zenodo.json` (title, description, creators, keywords, license MIT).
-4. **Verify** uploaded archive passes `bash scripts/verify_artifact_quick.sh` on a clean extract.
-5. **Publish** and confirm the version-specific DOI; update manuscript Data Availability if the version DOI differs from the concept DOI.
-6. **Optional:** Create a GitHub Release from tag `v1.0.0` (not done in this step — request separately if desired).
+1. **Published record:** [10.5281/zenodo.21154896](https://doi.org/10.5281/zenodo.21154896) — confirm metadata matches `.zenodo.json` after each tag refresh.
+2. **GitHub release:** https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0 — re-point tag if metadata commits land after release creation.
+3. **Verify** a clean extract of the tagged tree passes `bash scripts/verify_artifact_quick.sh`.
+4. **Manuscript:** Data Availability and `references.bib` must cite DOI `10.5281/zenodo.21154896` and the GitHub release URL.
 
 ---
 

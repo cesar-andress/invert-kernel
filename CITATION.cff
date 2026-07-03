@@ -4,7 +4,7 @@ message: "If you use this software, please cite it using these metadata."
 type: software
 license: MIT
 version: 1.0.0
-doi: 10.5281/zenodo.21063175
+doi: 10.5281/zenodo.21154896
 date-released: 2026-07-03
 authors:
   - given-names: César
@@ -20,6 +20,7 @@ keywords:
   - reproducibility
   - INVERT Kernel
 repository-code: "https://github.com/cesar-andress/invert-kernel"
+url: "https://doi.org/10.5281/zenodo.21154896"
 preferred-citation:
   type: article
   title: "INVERT Kernel: A Methodology for Contract-Bound Process Auditing of Outcome-Equivalent Code"
@@ -28,4 +29,4 @@ preferred-citation:
       family-names: Andrés
   journal: "ACM Transactions on Software Engineering and Methodology"
   year: 2026
-  notes: "Companion replication package v1.0.0 (frozen Core v2 implementation). Manuscript LaTeX is external to this repository. Zenodo DOI: 10.5281/zenodo.21063175."
+  notes: "INVERT Kernel — Replication Artifact v1.0.0 (frozen Core v2 implementation). GitHub release: https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0. Manuscript LaTeX is external to this repository. Zenodo DOI: 10.5281/zenodo.21154896."

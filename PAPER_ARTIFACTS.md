@@ -71,4 +71,4 @@ diff KEY_OUTPUTS.sha256 <(bash scripts/checksum_key_outputs.sh)
 
 ## Manuscript (external)
 
-LaTeX source: `~/papers/invert/paper/` (separate tree; compile with `./build.sh`). Zenodo deposit may bundle paper PDF separately or link via `related_identifiers` in `.zenodo.json`.
+LaTeX source: `~/papers/invert/invert-kernel/paper/` (separate tree; compile with `./build.sh`). Zenodo deposit may bundle paper PDF separately or link via `related_identifiers` in `.zenodo.json`.

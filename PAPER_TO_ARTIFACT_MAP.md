@@ -1,6 +1,10 @@
 # Paper → Artifact Map
 
-Maps ACM TOSEM manuscript claims to files in the **INVERT Kernel replication package** (frozen **Core v2** implementation) and the command that verifies each claim.
+Maps ACM TOSEM manuscript claims to files in the **INVERT Kernel — Replication Package** (frozen **Core v2** implementation) and the command that verifies each claim.
+
+**Release:** INVERT Kernel — Replication Artifact v1.0.0  
+**Zenodo:** [10.5281/zenodo.21154896](https://doi.org/10.5281/zenodo.21154896)  
+**GitHub release:** [v1.0.0](https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0)  
 
 **Paper title:** *INVERT Kernel: A Methodology for Contract-Bound Process Auditing of Outcome-Equivalent Code*  
 **LaTeX:** maintained separately from this repository.  

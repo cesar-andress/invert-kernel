@@ -205,4 +205,4 @@ External validation feasibility probes (EffiBench, Class E smoke tests, external
 
 ## Manuscript (external to this repo)
 
-LaTeX source for the ACM TOSEM manuscript is maintained separately from this replication package (see paper Data Availability; Zenodo DOI: 10.5281/zenodo.21063175).
+LaTeX source for the ACM TOSEM manuscript is maintained separately from this replication package (see paper Data Availability; Zenodo DOI: 10.5281/zenodo.21154896; GitHub release: https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0).

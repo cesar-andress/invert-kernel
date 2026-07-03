@@ -1,7 +1,9 @@
 # Artifact Quickstart (10–15 minutes)
 
-**Package:** INVERT Kernel — Replication Package v1.0.0  
+**Release:** INVERT Kernel — Replication Artifact v1.0.0  
+**Package:** INVERT Kernel — Replication Package  
 **Frozen implementation:** Core v2 (internal protocol version)  
+**GitHub release:** https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0  
 **Audience:** TOSEM / ACM artifact evaluators  
 **Policy:** Read-only verification by default — no LLM calls, no API keys.
 
@@ -151,4 +153,4 @@ Default v1.0.0 artifact evaluation uses **checksum-verified archived CSVs**, not
 | `docs/EXTERNAL_FEASIBILITY_NOTE.md` | Exploratory external-validation boundary (non-confirmatory) |
 | `MANIFEST_ZENODO.txt` | Intended Zenodo inclusions/exclusions |
 
-**Citation:** `CITATION.cff` — DOI [10.5281/zenodo.21063175](https://doi.org/10.5281/zenodo.21063175).
+**Citation:** `CITATION.cff` — Zenodo [10.5281/zenodo.21154896](https://doi.org/10.5281/zenodo.21154896); GitHub release [v1.0.0](https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0).
