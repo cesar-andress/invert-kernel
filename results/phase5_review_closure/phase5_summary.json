@@ -1,0 +1,11 @@
+{
+  "b1_same_bytes_count": 0,
+  "b1_diff_bytes_count": 120,
+  "b1_explanation": "Historical Class C strip labels used analyze_* path that re-strips from raw with PUBLIC_API_PRESERVE and copies behavioral_pass from the raw oracle cache. Re-oracling used archived stripped trees as written (no preserve). Bytes differ.",
+  "raw_checks": 450,
+  "transformed_checks": 1800,
+  "transformed_failures": 630,
+  "transformed_failure_rate": 0.35,
+  "levels_cumulative": true,
+  "class_b_t_resolution": "N/A \u2014 baseline_t(B) returns static detector_label; Class B has no trace contract"
+}

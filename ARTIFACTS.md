@@ -1,9 +1,6 @@
-# Artifact Inventory — INVERT Kernel Replication Package
+# Artifact Inventory — INVERT Core v2 (v1.0.1)
 
-**Frozen implementation:** Core v2 (v1.0.0)  
-**Instantiation:** Family 1 (Classes A–E; confirmatory frozen runs B–E)
-
-Repository root: extract or clone this package; all paths below are relative to that root. Directory names such as `core_v2/` and `invert_core/` are part of the frozen Core v2 implementation and are not renamed.
+Repository root: extract or clone this package; all paths below are relative to that root.
 
 ---
 
@@ -195,14 +192,23 @@ All four frozen generalization runs contain this file. Documented SHA256 hashes 
 
 ---
 
-## External validation (out of scope for the companion TOSEM manuscript)
+## External validation feasibility (exploratory, not confirmatory)
 
-External validation feasibility probes (EffiBench, Class E smoke tests, external-variability pilots) are **not** bundled in this INVERT Kernel replication package. The paper states trace-contract dependence as a declared limitation without external-validity claims. Confirmatory evidence remains the four `core_v2_generalization_local_*_001` runs only.
+The following files document **closed feasibility probes** that informed the paper's trace-contract dependence threat. They are **not** part of the confirmatory artifact set and must not be cited as empirical results:
 
-**Exploratory boundary documentation:** `docs/EXTERNAL_FEASIBILITY_NOTE.md` (referenced by the paper as *the external feasibility note*; non-confirmatory).
+| File | Contents |
+|------|----------|
+| `EXTERNAL_VALIDATION_CLOSURE.md` | Summary closure record (Classes D and E) |
+| `EXTERNAL_EFFIBENCH_FEASIBILITY.md` | Class D / EffiBench-X probe |
+| `external_effibench_go_no_go.json` | Class D go/no-go decision |
+| `EXTERNAL_CLASS_E_FEASIBILITY.md` | Class E external smoke probe |
+| `external_class_e_go_no_go.json` | Class E go/no-go decision |
+| `external_class_e_smoke_results.csv` | Class E smoke outcomes |
+
+No detector or frozen run was modified. Confirmatory evidence remains the four `core_v2_generalization_local_*_001` runs only.
 
 ---
 
 ## Manuscript (external to this repo)
 
-LaTeX source for the ACM TOSEM manuscript is maintained separately from this replication package (see paper Data Availability; Zenodo DOI: 10.5281/zenodo.21154896; GitHub release: https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0).
+LaTeX source for the ACM TOSEM manuscript is maintained separately from this replication package (see paper Data Availability; Zenodo DOI: 10.5281/zenodo.21063175).

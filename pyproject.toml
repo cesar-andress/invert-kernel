@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "invert"
-version = "1.0.0"
-description = "INVERT Kernel replication package (frozen Core v2 implementation) for contract-bound process auditing of generated code"
+version = "2.1.0"
+description = "INVERT replication package for controlled process-signature auditing of behaviorally equivalent generated code"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -30,5 +30,5 @@ invert-core = "invert_core.cli:app"
 where = ["src"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests/core_v2"]
+testpaths = ["tests"]
 pythonpath = ["src", "."]

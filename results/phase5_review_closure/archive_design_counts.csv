@@ -1,0 +1,6 @@
+class,models_n,poles_n,tasks_n,repetitions_per_configuration,generated_n,raw_valid_n,raw_valid_rate,hash_distinct_generated_n,hash_distinct_valid_n,notes
+A,2,2,3,,36,,,17,,pilot/sweep only; excluded from baseline and re-oracle analyses
+B,3,2,3,5,90,90,1.0000,15,15,B=90 from 3 models×2 poles×3 tasks×5 reps
+C,4,2,3,5,120,120,1.0000,5,5,C=120 from 4 models×2 poles×3 tasks×5 reps; temperature 0 so reps often byte-identical
+D,4,2,3,5,120,120,1.0000,12,12,D=120 from 4 models×2 poles×3 tasks×5 reps; temperature 0 so reps often byte-identical
+E,4,2,3,5,120,120,1.0000,12,12,E=120 from 4 models×2 poles×3 tasks×5 reps; temperature 0 so reps often byte-identical

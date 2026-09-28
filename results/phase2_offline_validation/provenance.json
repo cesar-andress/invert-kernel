@@ -1,0 +1,13 @@
+{
+  "mode": "archive_as_written_stripped_trees",
+  "rationale": "Frozen confirmatory CSVs match archived stripped files (not current strip_code re-apply). Manuscript-aligned Phase-2 re-oracle uses data/core_v2/stripped/.",
+  "n_reoracle_rows": 2250,
+  "strip_induced_behavioral_failures": 630,
+  "model_executions": 0,
+  "paid_api_calls": 0,
+  "canonical_analysis_findings": [
+    "Paper analyze_* now re-strips dynamic dims with PUBLIC_API_PRESERVE; archived stripped trees for C often lack preserve and break oracles/detectors.",
+    "Class B oracle cannot resolve renamed entry functions; paper never re-oracled strips (behavioral_pass copied from raw).",
+    "stripping.py drifted after Class C freeze; current strip_code from raw no longer reproduces Class C format_normalized 0.875."
+  ]
+}

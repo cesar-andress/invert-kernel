@@ -1,32 +1,36 @@
 cff-version: 1.2.0
-title: "INVERT Kernel — Replication Package"
+title: "INVERT: Controlled Process-Signature Auditing — Replication Package"
 message: "If you use this software, please cite it using these metadata."
 type: software
 license: MIT
-version: 1.0.0
-doi: 10.5281/zenodo.21154896
-date-released: 2026-07-03
+version: 2.1.0
+doi: 10.5281/zenodo.21154895
+date-released: 2026-09-28
 authors:
   - given-names: César
     family-names: Andrés
     affiliation: "CRIA-BDHS Research Group, Higher Polytechnic School of Technology and Science, Universidad Camilo José Cela, Madrid, Spain"
     orcid: "https://orcid.org/0009-0001-8968-3404"
-    email: "cesar.andress@ucjc.edu"
 keywords:
-  - audit methodology
+  - LLM code generation
   - process signatures
-  - behavioral equivalence
-  - generated code
+  - runtime verification
+  - software testing
+  - empirical software engineering
   - reproducibility
-  - INVERT Kernel
 repository-code: "https://github.com/cesar-andress/invert-kernel"
-url: "https://doi.org/10.5281/zenodo.21154896"
+url: "https://doi.org/10.5281/zenodo.21154895"
 preferred-citation:
-  type: article
-  title: "INVERT Kernel: A Methodology for Contract-Bound Process Auditing of Outcome-Equivalent Code"
+  type: software
+  title: "INVERT: Controlled Process-Signature Auditing — Replication Package v2.1.0"
   authors:
     - given-names: César
       family-names: Andrés
-  journal: "ACM Transactions on Software Engineering and Methodology"
+  version: 2.1.0
   year: 2026
-  notes: "INVERT Kernel — Replication Artifact v1.0.0 (frozen Core v2 implementation). GitHub release: https://github.com/cesar-andress/invert-kernel/releases/tag/v1.0.0. Manuscript LaTeX is external to this repository. Zenodo DOI: 10.5281/zenodo.21154896."
+  notes: >-
+    Canonical public replication package for the IST manuscript.
+    Concept DOI 10.5281/zenodo.21154895. Replace with the Zenodo version DOI
+    after v2.1.0 is published. Migrated from cesar-andress/invert tag v2.0.1
+    (commit 015df20186551c07579e66265785190f49a1767c). Historical invert
+    deposits 10.5281/zenodo.21063174 / 10.5281/zenodo.21063175 remain unchanged.

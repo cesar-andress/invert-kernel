@@ -1,0 +1,21 @@
+class,strip_level,n,behavior_preserved_n,behavior_preserved_rate,detector_correct_n,detector_correct_rate_conditional,detector_correct_rate_on_raw_valid_unconditional,original_claim_status,recommended_wording
+B,raw,90,90,1.0000,90,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+B,no_comments,90,90,1.0000,90,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+B,renamed,90,0,0.0000,0,0.0000,1.0000,PARTIALLY SUPPORTED,"detector labels often remain correct on raw-valid set, but stripped artifacts fail behavioral re-oracle — not semantics-preserving"
+B,no_imports,90,0,0.0000,0,0.0000,1.0000,PARTIALLY SUPPORTED,"detector labels often remain correct on raw-valid set, but stripped artifacts fail behavioral re-oracle — not semantics-preserving"
+B,format_normalized,90,0,0.0000,0,0.0000,1.0000,PARTIALLY SUPPORTED,"detector labels often remain correct on raw-valid set, but stripped artifacts fail behavioral re-oracle — not semantics-preserving"
+C,raw,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+C,no_comments,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+C,renamed,120,0,0.0000,0,0.0000,0.8750,PARTIALLY SUPPORTED,"detector labels often remain correct on raw-valid set, but stripped artifacts fail behavioral re-oracle — not semantics-preserving"
+C,no_imports,120,0,0.0000,0,0.0000,0.8750,PARTIALLY SUPPORTED,"detector labels often remain correct on raw-valid set, but stripped artifacts fail behavioral re-oracle — not semantics-preserving"
+C,format_normalized,120,0,0.0000,0,0.0000,0.8750,PARTIALLY SUPPORTED,"detector labels often remain correct on raw-valid set, but stripped artifacts fail behavioral re-oracle — not semantics-preserving"
+D,raw,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+D,no_comments,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+D,renamed,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+D,no_imports,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+D,format_normalized,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+E,raw,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+E,no_comments,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+E,renamed,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+E,no_imports,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform
+E,format_normalized,120,120,1.0000,120,1.0000,1.0000,SUPPORTED,behavior-preserving detector stability under this predefined archived transform

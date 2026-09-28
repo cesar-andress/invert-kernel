@@ -1,0 +1,5 @@
+class,first_failing_level,root_cause,later_levels_inherit_failure,artifacts_affected,checks_affected,first_fail_level_counts
+B,renamed,historical_stripper_renamed_oracle_required_public_API_without_PUBLIC_API_PRESERVE; later cumulative levels inherit broken source,True,90,270,{'renamed': 90}
+C,renamed,historical_stripper_renamed_oracle_required_public_API_without_PUBLIC_API_PRESERVE; later cumulative levels inherit broken source,True,120,360,{'renamed': 120}
+D,,none_observed_on_archived_trees,False,0,0,{}
+E,,none_observed_on_archived_trees,False,0,0,{}

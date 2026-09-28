@@ -1,0 +1,751 @@
+class,pole,control_condition,baseline,n,model,task_id,rep,prediction_expected_under_primary_rule,control_prediction,correct_or_supported_under_control,abstain_or_undefined,notes
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,mixed_signed_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,mixed_signed_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,mixed_signed_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,mixed_signed_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,mixed_signed_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,mixed_signed_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,mixed_signed_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,mixed_signed_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,mixed_signed_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,mixed_signed_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,mixed_signed_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,mixed_signed_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,mixed_signed_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,mixed_signed_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,mixed_signed_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,mixed_signed_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,mixed_signed_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,mixed_signed_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,mixed_signed_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,mixed_signed_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,mixed_signed_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,mixed_signed_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,mixed_signed_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,mixed_signed_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,mixed_signed_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,mixed_signed_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,mixed_signed_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,mixed_signed_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,mixed_signed_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,mixed_signed_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,repeated_values_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,repeated_values_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,repeated_values_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,repeated_values_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,repeated_values_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,repeated_values_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,repeated_values_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,repeated_values_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,repeated_values_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,repeated_values_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,repeated_values_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,repeated_values_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,repeated_values_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,repeated_values_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,repeated_values_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,repeated_values_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,repeated_values_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,repeated_values_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,repeated_values_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,repeated_values_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,repeated_values_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,repeated_values_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,repeated_values_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,repeated_values_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,repeated_values_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,repeated_values_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,repeated_values_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,repeated_values_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,repeated_values_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,repeated_values_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,small_positive_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,small_positive_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,small_positive_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,small_positive_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,small_positive_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,small_positive_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,small_positive_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,small_positive_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,small_positive_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,small_positive_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,small_positive_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,small_positive_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__devstral__latest,small_positive_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__devstral__latest,small_positive_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,small_positive_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,small_positive_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,small_positive_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,small_positive_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,small_positive_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,small_positive_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,small_positive_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,small_positive_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,small_positive_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,small_positive_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,small_positive_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,small_positive_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,small_positive_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__devstral__latest,small_positive_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__devstral__latest,small_positive_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__devstral__latest,small_positive_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_signed_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,repeated_values_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,repeated_values_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,repeated_values_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,repeated_values_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,repeated_values_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,repeated_values_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,repeated_values_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,repeated_values_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,repeated_values_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,repeated_values_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,repeated_values_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,repeated_values_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,repeated_values_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,repeated_values_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,repeated_values_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,repeated_values_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,repeated_values_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,repeated_values_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,repeated_values_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,repeated_values_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,repeated_values_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,repeated_values_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,repeated_values_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,repeated_values_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,repeated_values_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,repeated_values_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,repeated_values_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,repeated_values_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,repeated_values_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,repeated_values_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,small_positive_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,small_positive_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,small_positive_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,small_positive_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,small_positive_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,small_positive_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,small_positive_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,small_positive_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,small_positive_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,small_positive_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,small_positive_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,small_positive_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,small_positive_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,small_positive_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,small_positive_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,small_positive_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,small_positive_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,small_positive_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,small_positive_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,small_positive_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,small_positive_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,small_positive_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,small_positive_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,small_positive_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,small_positive_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,small_positive_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,small_positive_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__14b,small_positive_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__14b,small_positive_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__14b,small_positive_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_signed_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,repeated_values_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,repeated_values_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,repeated_values_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,repeated_values_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,repeated_values_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,repeated_values_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,repeated_values_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,repeated_values_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,repeated_values_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,repeated_values_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,repeated_values_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,repeated_values_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,repeated_values_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,repeated_values_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,repeated_values_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,repeated_values_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,repeated_values_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,repeated_values_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,repeated_values_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,repeated_values_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,repeated_values_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,repeated_values_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,repeated_values_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,repeated_values_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,repeated_values_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,repeated_values_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,repeated_values_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,repeated_values_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,repeated_values_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,repeated_values_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,small_positive_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,small_positive_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,small_positive_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,small_positive_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,small_positive_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,small_positive_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,small_positive_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,small_positive_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,small_positive_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,small_positive_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,small_positive_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,small_positive_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,small_positive_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,small_positive_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,small_positive_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,small_positive_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,small_positive_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,small_positive_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,small_positive_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,small_positive_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,small_positive_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,small_positive_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,small_positive_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,small_positive_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,small_positive_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,small_positive_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,small_positive_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen2_5-coder__32b,small_positive_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen2_5-coder__32b,small_positive_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen2_5-coder__32b,small_positive_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,mixed_signed_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,mixed_signed_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_signed_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,mixed_signed_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,mixed_signed_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_signed_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,mixed_signed_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,mixed_signed_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_signed_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,mixed_signed_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,mixed_signed_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_signed_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,mixed_signed_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,mixed_signed_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_signed_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,mixed_signed_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,mixed_signed_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_signed_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,mixed_signed_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,mixed_signed_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_signed_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,mixed_signed_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,mixed_signed_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_signed_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,mixed_signed_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,mixed_signed_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_signed_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,mixed_signed_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,mixed_signed_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_signed_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,repeated_values_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,repeated_values_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,repeated_values_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,repeated_values_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,repeated_values_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,repeated_values_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,repeated_values_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,repeated_values_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,repeated_values_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,repeated_values_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,repeated_values_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,repeated_values_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,repeated_values_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,repeated_values_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,repeated_values_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,repeated_values_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,repeated_values_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,repeated_values_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,repeated_values_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,repeated_values_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,repeated_values_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,repeated_values_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,repeated_values_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,repeated_values_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,repeated_values_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,repeated_values_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,repeated_values_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,repeated_values_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,repeated_values_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,repeated_values_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,small_positive_vector,1,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,small_positive_vector,1,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,small_positive_vector,1,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,small_positive_vector,2,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,small_positive_vector,2,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,small_positive_vector,2,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,small_positive_vector,3,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,small_positive_vector,3,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,small_positive_vector,3,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,small_positive_vector,4,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,small_positive_vector,4,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,small_positive_vector,4,eager,eager,True,False,T on full-demand traces
+C,eager,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,small_positive_vector,5,eager,eager,True,False,archived full-demand control
+C,eager,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,small_positive_vector,5,eager,eager,True,False,S invariant to demand
+C,eager,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,small_positive_vector,5,eager,eager,True,False,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,small_positive_vector,1,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,small_positive_vector,1,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,small_positive_vector,1,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,small_positive_vector,2,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,small_positive_vector,2,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,small_positive_vector,2,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,small_positive_vector,3,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,small_positive_vector,3,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,small_positive_vector,3,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,small_positive_vector,4,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,small_positive_vector,4,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,small_positive_vector,4,lazy,ambiguous,False,True,T on full-demand traces
+C,lazy,full_getter_demand,main_auditor,1,ollama__qwen3-coder__30b,small_positive_vector,5,lazy,ambiguous,False,True,archived full-demand control
+C,lazy,full_getter_demand,S_source_only,1,ollama__qwen3-coder__30b,small_positive_vector,5,lazy,lazy,True,False,S invariant to demand
+C,lazy,full_getter_demand,T_trace_direct,1,ollama__qwen3-coder__30b,small_positive_vector,5,lazy,ambiguous,False,True,T on full-demand traces
+D,bfs,linear_chain_graph,main_auditor,1,control_task,linear_chain,raw,bfs,ambiguous,False,True,linear-chain control
+D,bfs,linear_chain_graph,S_source_only,1,control_task,linear_chain,raw,bfs,bfs,True,False,S keeps source cues
+D,bfs,linear_chain_graph,T_trace_direct,1,control_task,linear_chain,raw,bfs,ambiguous,False,True,T loses order divergence
+D,bfs,linear_chain_graph,main_auditor,1,control_task,linear_chain,no_comments,bfs,ambiguous,False,True,linear-chain control
+D,bfs,linear_chain_graph,S_source_only,1,control_task,linear_chain,no_comments,bfs,bfs,True,False,S keeps source cues
+D,bfs,linear_chain_graph,T_trace_direct,1,control_task,linear_chain,no_comments,bfs,ambiguous,False,True,T loses order divergence
+D,bfs,linear_chain_graph,main_auditor,1,control_task,linear_chain,renamed,bfs,ambiguous,False,True,linear-chain control
+D,bfs,linear_chain_graph,S_source_only,1,control_task,linear_chain,renamed,bfs,bfs,True,False,S keeps source cues
+D,bfs,linear_chain_graph,T_trace_direct,1,control_task,linear_chain,renamed,bfs,ambiguous,False,True,T loses order divergence
+D,bfs,linear_chain_graph,main_auditor,1,control_task,linear_chain,no_imports,bfs,ambiguous,False,True,linear-chain control
+D,bfs,linear_chain_graph,S_source_only,1,control_task,linear_chain,no_imports,bfs,bfs,True,False,S keeps source cues
+D,bfs,linear_chain_graph,T_trace_direct,1,control_task,linear_chain,no_imports,bfs,ambiguous,False,True,T loses order divergence
+D,bfs,linear_chain_graph,main_auditor,1,control_task,linear_chain,format_normalized,bfs,ambiguous,False,True,linear-chain control
+D,bfs,linear_chain_graph,S_source_only,1,control_task,linear_chain,format_normalized,bfs,bfs,True,False,S keeps source cues
+D,bfs,linear_chain_graph,T_trace_direct,1,control_task,linear_chain,format_normalized,bfs,ambiguous,False,True,T loses order divergence
+D,dfs,linear_chain_graph,main_auditor,1,control_task,linear_chain,raw,dfs,ambiguous,False,True,linear-chain control
+D,dfs,linear_chain_graph,S_source_only,1,control_task,linear_chain,raw,dfs,dfs,True,False,S keeps source cues
+D,dfs,linear_chain_graph,T_trace_direct,1,control_task,linear_chain,raw,dfs,ambiguous,False,True,T loses order divergence
+D,dfs,linear_chain_graph,main_auditor,1,control_task,linear_chain,no_comments,dfs,ambiguous,False,True,linear-chain control
+D,dfs,linear_chain_graph,S_source_only,1,control_task,linear_chain,no_comments,dfs,dfs,True,False,S keeps source cues
+D,dfs,linear_chain_graph,T_trace_direct,1,control_task,linear_chain,no_comments,dfs,ambiguous,False,True,T loses order divergence
+D,dfs,linear_chain_graph,main_auditor,1,control_task,linear_chain,renamed,dfs,ambiguous,False,True,linear-chain control
+D,dfs,linear_chain_graph,S_source_only,1,control_task,linear_chain,renamed,dfs,dfs,True,False,S keeps source cues
+D,dfs,linear_chain_graph,T_trace_direct,1,control_task,linear_chain,renamed,dfs,ambiguous,False,True,T loses order divergence
+D,dfs,linear_chain_graph,main_auditor,1,control_task,linear_chain,no_imports,dfs,ambiguous,False,True,linear-chain control
+D,dfs,linear_chain_graph,S_source_only,1,control_task,linear_chain,no_imports,dfs,dfs,True,False,S keeps source cues
+D,dfs,linear_chain_graph,T_trace_direct,1,control_task,linear_chain,no_imports,dfs,ambiguous,False,True,T loses order divergence
+D,dfs,linear_chain_graph,main_auditor,1,control_task,linear_chain,format_normalized,dfs,ambiguous,False,True,linear-chain control
+D,dfs,linear_chain_graph,S_source_only,1,control_task,linear_chain,format_normalized,dfs,dfs,True,False,S keeps source cues
+D,dfs,linear_chain_graph,T_trace_direct,1,control_task,linear_chain,format_normalized,dfs,ambiguous,False,True,T loses order divergence
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,letters_8,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,letters_8,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,letters_8,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,letters_8,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,letters_8,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,letters_8,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,letters_8,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,letters_8,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,letters_8,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,letters_8,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,letters_8,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,letters_8,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,letters_8,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,letters_8,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,letters_8,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,letters_8,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,letters_8,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,letters_8,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,letters_8,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,letters_8,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,letters_8,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,letters_8,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,letters_8,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,letters_8,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,letters_8,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,letters_8,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,letters_8,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,letters_8,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,letters_8,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,letters_8,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,mixed_tokens,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,mixed_tokens,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,mixed_tokens,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,mixed_tokens,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,mixed_tokens,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,mixed_tokens,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,mixed_tokens,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,mixed_tokens,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,mixed_tokens,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,mixed_tokens,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,mixed_tokens,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,mixed_tokens,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,mixed_tokens,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,mixed_tokens,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,mixed_tokens,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,mixed_tokens,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,mixed_tokens,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,mixed_tokens,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,mixed_tokens,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,mixed_tokens,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,mixed_tokens,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,mixed_tokens,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,mixed_tokens,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,mixed_tokens,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,mixed_tokens,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,mixed_tokens,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,mixed_tokens,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,mixed_tokens,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,mixed_tokens,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,mixed_tokens,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,numbers_10,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,numbers_10,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,numbers_10,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,numbers_10,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,numbers_10,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,numbers_10,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,numbers_10,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,numbers_10,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,numbers_10,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,numbers_10,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,numbers_10,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,numbers_10,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__devstral__latest,numbers_10,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__devstral__latest,numbers_10,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__devstral__latest,numbers_10,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,numbers_10,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,numbers_10,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,numbers_10,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,numbers_10,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,numbers_10,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,numbers_10,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,numbers_10,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,numbers_10,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,numbers_10,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,numbers_10,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,numbers_10,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,numbers_10,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__devstral__latest,numbers_10,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__devstral__latest,numbers_10,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__devstral__latest,numbers_10,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,letters_8,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,letters_8,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,letters_8,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,letters_8,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,letters_8,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,letters_8,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,letters_8,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,letters_8,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,letters_8,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,letters_8,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,letters_8,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,letters_8,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,letters_8,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,letters_8,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,letters_8,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,letters_8,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,letters_8,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,letters_8,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,letters_8,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,letters_8,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,letters_8,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,letters_8,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,letters_8,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,letters_8,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,letters_8,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,letters_8,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,letters_8,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,letters_8,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,letters_8,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,letters_8,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_tokens,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_tokens,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_tokens,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_tokens,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_tokens,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_tokens,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_tokens,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_tokens,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_tokens,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_tokens,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_tokens,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_tokens,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_tokens,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_tokens,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_tokens,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_tokens,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_tokens,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_tokens,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_tokens,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_tokens,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_tokens,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_tokens,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_tokens,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_tokens,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_tokens,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_tokens,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_tokens,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,mixed_tokens,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,mixed_tokens,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,mixed_tokens,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,numbers_10,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,numbers_10,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,numbers_10,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,numbers_10,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,numbers_10,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,numbers_10,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,numbers_10,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,numbers_10,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,numbers_10,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,numbers_10,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,numbers_10,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,numbers_10,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,numbers_10,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,numbers_10,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,numbers_10,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,numbers_10,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,numbers_10,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,numbers_10,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,numbers_10,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,numbers_10,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,numbers_10,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,numbers_10,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,numbers_10,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,numbers_10,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,numbers_10,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,numbers_10,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,numbers_10,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__14b,numbers_10,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__14b,numbers_10,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__14b,numbers_10,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,letters_8,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,letters_8,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,letters_8,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,letters_8,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,letters_8,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,letters_8,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,letters_8,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,letters_8,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,letters_8,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,letters_8,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,letters_8,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,letters_8,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,letters_8,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,letters_8,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,letters_8,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,letters_8,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,letters_8,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,letters_8,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,letters_8,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,letters_8,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,letters_8,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,letters_8,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,letters_8,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,letters_8,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,letters_8,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,letters_8,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,letters_8,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,letters_8,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,letters_8,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,letters_8,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_tokens,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_tokens,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_tokens,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_tokens,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_tokens,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_tokens,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_tokens,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_tokens,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_tokens,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_tokens,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_tokens,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_tokens,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_tokens,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_tokens,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_tokens,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_tokens,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_tokens,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_tokens,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_tokens,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_tokens,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_tokens,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_tokens,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_tokens,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_tokens,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_tokens,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_tokens,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_tokens,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,mixed_tokens,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,mixed_tokens,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,mixed_tokens,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,numbers_10,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,numbers_10,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,numbers_10,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,numbers_10,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,numbers_10,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,numbers_10,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,numbers_10,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,numbers_10,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,numbers_10,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,numbers_10,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,numbers_10,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,numbers_10,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,numbers_10,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,numbers_10,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,numbers_10,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,numbers_10,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,numbers_10,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,numbers_10,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,numbers_10,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,numbers_10,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,numbers_10,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,numbers_10,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,numbers_10,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,numbers_10,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,numbers_10,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,numbers_10,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,numbers_10,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen2_5-coder__32b,numbers_10,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen2_5-coder__32b,numbers_10,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen2_5-coder__32b,numbers_10,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,letters_8,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,letters_8,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,letters_8,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,letters_8,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,letters_8,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,letters_8,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,letters_8,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,letters_8,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,letters_8,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,letters_8,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,letters_8,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,letters_8,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,letters_8,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,letters_8,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,letters_8,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,letters_8,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,letters_8,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,letters_8,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,letters_8,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,letters_8,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,letters_8,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,letters_8,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,letters_8,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,letters_8,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,letters_8,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,letters_8,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,letters_8,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,letters_8,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,letters_8,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,letters_8,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,mixed_tokens,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,mixed_tokens,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_tokens,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,mixed_tokens,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,mixed_tokens,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_tokens,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,mixed_tokens,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,mixed_tokens,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_tokens,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,mixed_tokens,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,mixed_tokens,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_tokens,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,mixed_tokens,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,mixed_tokens,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_tokens,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,mixed_tokens,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,mixed_tokens,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_tokens,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,mixed_tokens,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,mixed_tokens,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_tokens,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,mixed_tokens,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,mixed_tokens,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_tokens,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,mixed_tokens,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,mixed_tokens,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_tokens,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,mixed_tokens,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,mixed_tokens,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,mixed_tokens,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,numbers_10,1,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,numbers_10,1,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,numbers_10,1,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,numbers_10,2,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,numbers_10,2,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,numbers_10,2,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,numbers_10,3,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,numbers_10,3,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,numbers_10,3,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,numbers_10,4,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,numbers_10,4,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,numbers_10,4,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,deterministic,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,numbers_10,5,deterministic,deterministic,True,False,fixed-seed; collapse=false
+E,deterministic,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,numbers_10,5,deterministic,deterministic,True,False,S keeps source cues
+E,deterministic,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,numbers_10,5,deterministic,deterministic,True,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,numbers_10,1,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,numbers_10,1,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,numbers_10,1,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,numbers_10,2,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,numbers_10,2,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,numbers_10,2,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,numbers_10,3,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,numbers_10,3,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,numbers_10,3,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,numbers_10,4,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,numbers_10,4,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,numbers_10,4,randomized,deterministic,False,False,T follows trace identity under fixed seed
+E,randomized,fixed_seed,main_auditor,1,ollama__qwen3-coder__30b,numbers_10,5,randomized,deterministic,False,False,fixed-seed; collapse=true
+E,randomized,fixed_seed,S_source_only,1,ollama__qwen3-coder__30b,numbers_10,5,randomized,randomized,True,False,S keeps source cues
+E,randomized,fixed_seed,T_trace_direct,1,ollama__qwen3-coder__30b,numbers_10,5,randomized,deterministic,False,False,T follows trace identity under fixed seed
