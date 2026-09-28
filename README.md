@@ -1,16 +1,16 @@
 # INVERT: Controlled Process-Signature Auditing — Replication Package
 
-**Version:** v2.1.0  
+**Version:** v2.1.1  
 **Concept DOI:** [10.5281/zenodo.21154895](https://doi.org/10.5281/zenodo.21154895)  
 **Historical Kernel v1.0.0 DOI:** [10.5281/zenodo.21154896](https://doi.org/10.5281/zenodo.21154896) (unchanged)
 **Prior invert deposit (immutable):** concept [10.5281/zenodo.21063174](https://doi.org/10.5281/zenodo.21063174); version [10.5281/zenodo.21063175](https://doi.org/10.5281/zenodo.21063175)
 **Canonical repository:** [cesar-andress/invert-kernel](https://github.com/cesar-andress/invert-kernel)
 
-**Public release note:** Canonical public release is **v2.1.0** on `cesar-andress/invert-kernel`, migrating validated contents of `cesar-andress/invert` tag **v2.0.1**.
+**Public release note:** Canonical public release is **v2.1.1** on `cesar-andress/invert-kernel` (provenance patch over **v2.1.0**; scientific contents unchanged). Migrated originally from `cesar-andress/invert` tag **v2.0.1**.
 
 **Paper:** *Auditing Process Signatures in Behaviorally Equivalent Generated Code: A Controlled Empirical Protocol* (Information and Software Technology manuscript; LaTeX source maintained separately).
 
-This v2.1.0 release packages archived generated/transformed artifacts, historical and current stripping-implementation snapshots, deterministic offline re-oracling / baseline / control / stability / taxonomy analyses, and a no-model headline verifier. **No new LLM generation is required to verify manuscript headline results.** See `REPRODUCIBILITY.md`.
+This v2.1.1 release packages archived generated/transformed artifacts, **three** stripping-implementation provenance snapshots (archive-write / historical-analysis / current), deterministic offline re-oracling / baseline / control / stability / taxonomy analyses, and a no-model headline verifier. **No new LLM generation is required to verify manuscript headline results.** See `REPRODUCIBILITY.md` and `provenance/stripping/README.md`.
 
 ## Overview
 
@@ -150,9 +150,8 @@ invert --help         # Legacy prototype
 
 ## Citation
 
-**Artifact:** INVERT Core v2 Replication Package, v1.0.1.  
-**Concept DOI:** [10.5281/zenodo.21154895](https://doi.org/10.5281/zenodo.21154895) (v2.0.0 version DOI synced after Zenodo publish; historical v1: 10.5281/zenodo.21063175)  
-**URL:** https://doi.org/10.5281/zenodo.21063174
+**Artifact:** INVERT: Controlled Process-Signature Auditing — Replication Package, v2.1.1.  
+**Concept DOI:** [10.5281/zenodo.21154895](https://doi.org/10.5281/zenodo.21154895) (version DOI assigned on Zenodo publish; historical Kernel v1: 10.5281/zenodo.21154896; prior invert version: 10.5281/zenodo.21063175)  
 
 See also `CITATION.cff` for machine-readable metadata.
 

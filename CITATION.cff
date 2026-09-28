@@ -3,7 +3,7 @@ title: "INVERT: Controlled Process-Signature Auditing — Replication Package"
 message: "If you use this software, please cite it using these metadata."
 type: software
 license: MIT
-version: 2.1.0
+version: 2.1.1
 doi: 10.5281/zenodo.21154895
 date-released: 2026-09-28
 authors:
@@ -22,15 +22,16 @@ repository-code: "https://github.com/cesar-andress/invert-kernel"
 url: "https://doi.org/10.5281/zenodo.21154895"
 preferred-citation:
   type: software
-  title: "INVERT: Controlled Process-Signature Auditing — Replication Package v2.1.0"
+  title: "INVERT: Controlled Process-Signature Auditing — Replication Package v2.1.1"
   authors:
     - given-names: César
       family-names: Andrés
-  version: 2.1.0
+  version: 2.1.1
   year: 2026
   notes: >-
     Canonical public replication package for the IST manuscript.
     Concept DOI 10.5281/zenodo.21154895. Replace with the Zenodo version DOI
-    after v2.1.0 is published. Migrated from cesar-andress/invert tag v2.0.1
+    after v2.1.1 is published. Provenance patch over v2.1.0 (scientific results
+    unchanged). Migrated from cesar-andress/invert tag v2.0.1
     (commit 015df20186551c07579e66265785190f49a1767c). Historical invert
     deposits 10.5281/zenodo.21063174 / 10.5281/zenodo.21063175 remain unchanged.

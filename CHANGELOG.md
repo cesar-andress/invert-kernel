@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.1.1 — 2026-09-28
+
+Provenance/documentation patch over v2.1.0. Scientific contents and results unchanged.
+
+- Archives the exact archive-write stripping implementation (`24617de8…`) that produced historical Class B/C transformed trees
+- Corrects public role labels: `5032952f…` is a historical-analysis/re-stripping snapshot that already contains `PUBLIC_API_PRESERVE`, not the archive-write producer
+- Adds `provenance/stripping/STRIPPING_PROVENANCE.csv` and a three-state README
+- Extends `scripts/verify_v2_offline_headlines.py` to check all three stripper snapshot hashes
+- Headline offline evidence unchanged (450/1800/630; 35.0%; design counts B–E unchanged)
+- Concept DOI unchanged: `10.5281/zenodo.21154895`
+
 ## v2.1.0 — 2026-09-28
 
 Canonical public replication package on `cesar-andress/invert-kernel`.

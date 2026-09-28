@@ -9,3 +9,5 @@ Version **v2.1.0** migrates the public scientific contents of:
 - commit: `015df20186551c07579e66265785190f49a1767c`
 
 Historical repositories and tags remain immutable. This migration does **not** change the scientific results archived in that source release (offline headline denominators, design counts, control/baseline/stability/taxonomy tables, or archived generated/transformed artifacts).
+
+Version **v2.1.1** is a provenance/documentation patch over **v2.1.0**: it archives the exact archive-write stripper (`24617de8…`) and corrects public role labels for the three stripping states. Scientific results remain unchanged. See `provenance/stripping/README.md`.

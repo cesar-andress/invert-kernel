@@ -1,4 +1,4 @@
-# INVERT reproducibility guide (v2.1.0)
+# INVERT reproducibility guide (v2.1.1)
 
 This package supports **verification of the IST manuscript headline results without any new model generation**.
 
@@ -34,10 +34,11 @@ Archived generated/transformed artifacts:
 
 - `data/core_v2/stripped/<run>/<level>/...`
 
-Stripping provenance snapshots:
+Stripping provenance snapshots (three states; see `STRIPPING_PROVENANCE.csv`):
 
-- `provenance/stripping/historical_5032952fceaf4c6b/`
-- `provenance/stripping/current_aace1f27a9199db7/`
+- `provenance/stripping/archive_write_24617de8e91c0d47/` (archive-write; no public-API preserve)
+- `provenance/stripping/historical_5032952fceaf4c6b/` (historical-analysis; already has public-API preserve)
+- `provenance/stripping/current_aace1f27a9199db7/` (current)
 - see `provenance/stripping/README.md`
 
 ## B. Full historical model generation (not required)
